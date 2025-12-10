@@ -80,19 +80,23 @@ h1{
 .brand h2, .stand h2, .apple h2, .tangerine h2{
     text-align: center;
     font-size: 2rem;
+    font-family:'Fraunces',sans-serif;
+    font-weight: 900;
 }
 
 .brand h3{ 
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family:'Fraunces',sans-serif;
+    font-weight: 700;
     color: hsl(212, 27%, 19%);
     box-shadow: 0 5px 0 0 hsl(7, 99%, 70%);
-    background-color: none;
-
 }
 .stand h3{
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-family:'Fraunces',sans-serif;
+    font-weight: 700;
     color: hsl(212, 27%, 19%);
 }
 
@@ -140,27 +144,35 @@ h1{
 }
 
 .second-section h2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: hsl(232, 10%, 55%);
     margin-top: 40px;
     text-align: center;
+    font-family:'Fraunces',sans-serif;
+    font-weight: 900;
 }
 
 .second-section h3{
     margin-top: 30px;
     text-align: center;
     color: hsl(213, 9%, 39%);
+    font-family:'Fraunces',sans-serif;
+    font-weight: 700;
 }
 
 .second-section div{
     margin-top: 10px;
     text-align: center;
     color: hsl(210, 4%, 67%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 .second-section p{
     text-align: center;
     color: hsl(213, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
 }
 
 .third-section{
@@ -213,6 +225,12 @@ h1{
 footer{
     display: flex;
     justify-content: space-evenly
+}
+
+ul{
+    color: hsl(167, 40%, 24%);
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
 }
 
 .media{
